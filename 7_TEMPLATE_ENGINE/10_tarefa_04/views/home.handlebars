@@ -1,0 +1,10 @@
+<h1>Confira aqui nossas opções de viagens:</h1>
+
+<div class="container_destino">
+    {{#each destinos}}
+        <a href="./destinos/{{this.img}}">
+            {{>destino}}
+        </a>
+    {{/each}}
+</div>
+

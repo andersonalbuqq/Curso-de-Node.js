@@ -1,0 +1,15 @@
+body{
+    background-color: #767f87;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+main{
+    background-color: hsl(208, 7%, 15%);
+    color: white;
+    border-radius: 5px;
+    padding: 50px 150px;
+}
+
