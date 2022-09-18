@@ -83,7 +83,7 @@ function buildAccount() {
                 console.log(err)
             })
 
-            console.log(chalk.green('Parbéns, a sua conta foi criada!'))
+            console.log(chalk.green('Parabéns, a sua conta foi criada!'))
             operation()
         })
         .catch(err => console.log(err))

@@ -62,7 +62,6 @@ router.get('/:id', (req, res) =>{
             viagem = destinos[5]
             break 
     }
-    console.log(`${viagem.name}`)
     res.render(`${basePath}/viagem.handlebars`, {viagem})
 })
 
